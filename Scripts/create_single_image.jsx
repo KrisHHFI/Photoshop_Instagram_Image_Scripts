@@ -55,8 +55,16 @@ var textLayer = doc.artLayers.add();
 textLayer.kind = LayerKind.TEXT;
 var textItem = textLayer.textItem;
 
+// Get today's date and format it as "Month Day, Year"
+var today = new Date();
+var monthNames = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+];
+var formattedDate = monthNames[today.getMonth()] + " " + today.getDate() + ", " + today.getFullYear();
+
 // Set the dynamic text content with a line break after "for"
-textItem.contents = config.imageText;
+textItem.contents = "\u2728 Cosmic Guidance for\r" + formattedDate + " \u2728";
 
 // Set the text position to start at the left side of the canvas (0, 430)
 textItem.position = [0, 430]; // Left aligned horizontally, centered vertically

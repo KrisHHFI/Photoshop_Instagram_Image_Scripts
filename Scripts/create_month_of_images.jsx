@@ -16,7 +16,7 @@ function daysInMonth(month, year) {
 }
 
 // Define the target month (1-based, where January = 1, February = 2, etc.)
-var targetMonth = 1; // Change this value to generate images for a different month (e.g., 2 for February)
+var targetMonth = 3; // Change this value to generate images for a different month (e.g., 2 for February)
 
 // Adjust targetMonth to 0-based index for Date object
 var zeroBasedMonth = targetMonth - 1;
