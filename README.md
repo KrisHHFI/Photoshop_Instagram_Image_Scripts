@@ -9,7 +9,7 @@ In this project I have made scripts for Adobe Photoshop. The scripts programmati
 Script  | What it does
 ------------- | -------------
 create_image_test | Creates and saves a blank test PNG.
-create_single_image | Creates and saves a PNG. The PNG has a background image and text.
+background_image_and_text | Creates and saves a PNG. The PNG has a background image and text.
 create_month_of_images | Creates and saves a months worth of PNGs. The user can define the month. The PNG has a background image and text.
 
 
